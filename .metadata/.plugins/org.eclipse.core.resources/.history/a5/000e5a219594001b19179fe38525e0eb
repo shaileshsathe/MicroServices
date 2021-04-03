@@ -32,10 +32,9 @@ public class UserResource {
 	public ResponseEntity<Object> createUser(@RequestBody User user) {
 		User savedUser = userService.save(user);
 
-		//get currentRequest URI append id by replacing it from variable id to savedUser.getId and return URI 
+		//get currentRequest URI append id by replacing it from variable id to savedUser.getId
 		URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedUser.getId())
 				.toUri();
-		//returning status code 201 created as well as location of the created resource with id in the header of the response
 		return ResponseEntity.created(location).build();
 	}
 }

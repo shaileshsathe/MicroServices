@@ -35,7 +35,7 @@ public class UserResource {
 		//get currentRequest URI append id by replacing it from variable id to savedUser.getId and return URI 
 		URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedUser.getId())
 				.toUri();
-		//returning status code 201 created as well as location of the created resource with id in the header of the response
+		//returning status code 201 created as well as location of the created resource with id in the header
 		return ResponseEntity.created(location).build();
 	}
 }

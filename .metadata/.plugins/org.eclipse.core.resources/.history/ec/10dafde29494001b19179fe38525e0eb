@@ -17,25 +17,22 @@ public class UserResource {
 
 	@Autowired
 	private UserDaoService userService;
-
+	
 	@GetMapping("/users")
-	public List<User> retrieveAllUsers() {
+	public List<User> retrieveAllUsers(){
 		return userService.findAll();
 	}
-
+	
 	@GetMapping("/users/{id}")
 	public User retrieveUser(@PathVariable int id) {
 		return userService.findOne(id);
 	}
-
+	
 	@PostMapping("/users")
-	public ResponseEntity<Object> createUser(@RequestBody User user) {
+	public void createUser(@RequestBody User user) {
 		User savedUser = userService.save(user);
-
-		//get currentRequest URI append id by replacing it from variable id to savedUser.getId and return URI 
-		URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedUser.getId())
-				.toUri();
-		//returning status code 201 created as well as location of the created resource with id in the header of the response
-		return ResponseEntity.created(location).build();
+		
+		URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedUser.getId()).toUri();
+		ResponseEntity.created(location);
 	}
 }
