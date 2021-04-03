@@ -250,3 +250,68 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:22.500
+!MESSAGE Preparing classpath changed notification RestfulWebService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:22.501
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:22.506
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:22.509
+!MESSAGE buffering callback sts4.classpath.ACXRwETI RestfulWebService false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:22.509
+!MESSAGE executing callback sts4.classpath.ACXRwETI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:24.512
+!MESSAGE executing callback sts4.classpath.ACXRwETI FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-04-03 22:41:24.514
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:197)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:29.124
+!MESSAGE Preparing classpath changed notification RestfulWebService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:29.125
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:29.129
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:29.132
+!MESSAGE buffering callback sts4.classpath.ACXRwETI RestfulWebService false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:29.133
+!MESSAGE executing callback sts4.classpath.ACXRwETI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:29.149
+!MESSAGE executing callback sts4.classpath.ACXRwETI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:31.661
+!MESSAGE Preparing classpath changed notification RestfulWebService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:31.662
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:31.666
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:31.669
+!MESSAGE buffering callback sts4.classpath.ACXRwETI RestfulWebService false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:31.670
+!MESSAGE executing callback sts4.classpath.ACXRwETI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 22:41:31.683
+!MESSAGE executing callback sts4.classpath.ACXRwETI SUCCESS [done]
