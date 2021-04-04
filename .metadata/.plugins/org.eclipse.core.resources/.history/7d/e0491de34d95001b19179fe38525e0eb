@@ -34,7 +34,7 @@ public class HelloWorldController {
 	
 	@GetMapping(path = "/hello-world-internationalized")
 	public String helloWorldInternationalized() {
-		//using LocalContextHolder don't need to pass Locale as parameter/RequestHeader
+		//using LocalContextHolder don't need to pass Locale as parameter/RequestBody
 		return messageSource.getMessage("good.morning.message",null, LocaleContextHolder.getLocale());
 	}
 }

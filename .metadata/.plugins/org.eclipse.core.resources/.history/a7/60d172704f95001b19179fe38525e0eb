@@ -20,7 +20,7 @@ public class RestfulWebServiceApplication {
 		// used AcceptHeaderResolver instead of SessionLocalResolver as we are accepting
 		// it in header
 		// advantage of AcceptHeaderResolver is we would not need to configure Locale as
-		// Request Parameter or RequestHeader in every controller method with LocaleContextHolder.getLocale
+		// Request Parameter or RequestHeader in every controller method
 		AcceptHeaderLocaleResolver localeResolver = new AcceptHeaderLocaleResolver();
 		localeResolver.setDefaultLocale(Locale.US);
 		return localeResolver;

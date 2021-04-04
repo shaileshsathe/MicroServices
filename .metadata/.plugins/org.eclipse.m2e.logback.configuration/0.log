@@ -1566,3 +1566,87 @@
 2021-04-04 17:48:07,650 [Worker-763: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-04-04 17:48:07,650 [Worker-763: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-04-04 17:48:07,659 [Worker-763: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 17:48:07,659 [Worker-763: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 17:48:07,660 [Worker-763: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:27:11,001 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:27:11,001 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:27:11,002 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:27:11,061 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:27:11,064 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:27:11,064 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:27:11,064 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:28:02,921 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:28:02,921 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:28:02,922 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:28:02,930 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:28:02,932 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:28:02,932 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:28:02,932 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:28:52,235 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:28:52,236 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:28:52,236 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:28:52,244 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:28:52,247 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:28:52,247 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:28:52,247 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:31:38,251 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:31:38,251 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:31:38,253 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:31:38,261 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:31:38,263 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:31:38,263 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:31:38,263 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:33:40,310 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:33:40,310 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:33:40,311 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:33:40,320 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:33:40,323 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:33:40,323 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:33:40,323 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:34:53,532 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:34:53,532 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:34:53,533 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:34:53,540 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:34:53,541 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:34:53,541 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:34:53,541 [Worker-807: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:36:10,164 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:36:10,164 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:36:10,165 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:36:10,177 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:36:10,181 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:36:10,181 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:36:10,181 [Worker-795: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:36:53,031 [Worker-810: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:36:53,032 [Worker-810: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:36:53,032 [Worker-810: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:36:53,103 [Worker-810: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-04 19:36:53,104 [Worker-810: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:36:53,104 [Worker-810: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:36:53,104 [Worker-810: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:37:01,025 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:37:01,025 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:37:01,026 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:37:01,035 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:37:01,038 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:37:01,038 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:37:01,038 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:38:59,523 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:38:59,524 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:38:59,524 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:38:59,532 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:38:59,534 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:38:59,534 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:38:59,534 [Worker-808: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:39:20,228 [Worker-761: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:39:20,228 [Worker-761: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:39:20,229 [Worker-761: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:39:20,254 [Worker-761: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:39:20,256 [Worker-761: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:39:20,256 [Worker-761: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:39:20,256 [Worker-761: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-04 19:39:58,848 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-04 19:39:58,848 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-04 19:39:58,849 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-04 19:39:58,857 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-04-04 19:39:58,861 [Worker-809: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
