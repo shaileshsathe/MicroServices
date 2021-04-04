@@ -6,14 +6,7 @@ import java.util.List;
 import javax.annotation.Resource;
 import javax.validation.Valid;
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.hateoas.EntityModel;
-import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
-
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,25 +28,15 @@ public class UserResource {
 	}
 
 	@GetMapping("/users/{id}")
-	public EntityModel<User> retrieveUser(@PathVariable int id) {
+	public User retrieveUser(@PathVariable int id) {
 		User user =  userService.findOne(id);
 		if(user==null) {
 			throw new UserNotFoundException("id-"+id);
 		}
 		//add link to get all users //"all-users", SERVER_PATH + "/users
-		//retrieveAllUsers
 		//Spring-boot-hateoas enables us to easily add links to other resources using methods
-		
-		//create resource of user
-		EntityModel<User> resource  = EntityModel.of(user);
-		
-		//create link to /users using retrieveAllUsers method
-		WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).retrieveAllUsers());
-		
-		//add link by key "all-users"
-		resource.add(linkTo.withRel("all-users"));
-		
-		return resource;
+		Resou
+		return user;
 	}
 
 	@PostMapping("/users")

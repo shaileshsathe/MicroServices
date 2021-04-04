@@ -48,7 +48,7 @@ public class UserResource {
 		EntityModel<User> resource  = EntityModel.of(user);
 		
 		//create link to /users using retrieveAllUsers method
-		WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).retrieveAllUsers());
+		WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass(), retrieveAllUsers()));
 		
 		//add link by key "all-users"
 		resource.add(linkTo.withRel("all-users"));

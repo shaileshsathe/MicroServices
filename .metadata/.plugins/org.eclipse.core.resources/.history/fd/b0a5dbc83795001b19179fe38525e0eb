@@ -35,7 +35,7 @@ public class UserResource {
 	}
 
 	@GetMapping("/users/{id}")
-	public EntityModel<User> retrieveUser(@PathVariable int id) {
+	public User retrieveUser(@PathVariable int id) {
 		User user =  userService.findOne(id);
 		if(user==null) {
 			throw new UserNotFoundException("id-"+id);
@@ -43,17 +43,10 @@ public class UserResource {
 		//add link to get all users //"all-users", SERVER_PATH + "/users
 		//retrieveAllUsers
 		//Spring-boot-hateoas enables us to easily add links to other resources using methods
-		
-		//create resource of user
 		EntityModel<User> resource  = EntityModel.of(user);
 		
-		//create link to /users using retrieveAllUsers method
-		WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).retrieveAllUsers());
-		
-		//add link by key "all-users"
-		resource.add(linkTo.withRel("all-users"));
-		
-		return resource;
+		WebMvcLinkBuilder linkTo = 
+		return user;
 	}
 
 	@PostMapping("/users")
