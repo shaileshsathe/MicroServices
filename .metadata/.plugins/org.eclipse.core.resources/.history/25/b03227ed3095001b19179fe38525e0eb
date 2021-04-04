@@ -9,9 +9,7 @@ public class User {
 
 	private Integer id;
 
-	// we are using java validation api, hibernator validator implements the
-	// validations inside validation api, both java validation api and hibernate
-	// validator present in spring boot starter
+	//we are using java validation api, hibernator validator implements the validations inside validation api
 	@Size(min = 2, message = "name should have atleast 2 characters")
 	private String name;
 
