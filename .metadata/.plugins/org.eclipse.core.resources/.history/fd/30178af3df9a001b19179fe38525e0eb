@@ -63,7 +63,7 @@ public class UserResource {
 	 * dependency if you do not specify accept-header in request response would be
 	 * json but if you specify accept-header as application/xml then response would
 	 * be xml after adding this dependency now service will support both Json or XML
-	 * depend upon accept-header
+	 * depend upon header
 	 * 
 	 * @param user
 	 * @return

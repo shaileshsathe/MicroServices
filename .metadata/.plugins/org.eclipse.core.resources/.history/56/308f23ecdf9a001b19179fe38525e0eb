@@ -61,9 +61,7 @@ public class UserResource {
 	 * <groupId>com.fasterxml.jackson.dataformat</groupId>
 	 * <artifactId>jackson-dataformat-xml</artifactId> </dependency> after adding
 	 * dependency if you do not specify accept-header in request response would be
-	 * json but if you specify accept-header as application/xml then response would
-	 * be xml after adding this dependency now service will support both Json or XML
-	 * depend upon accept-header
+	 * json but if you specify accept-header as application/xml then response would be xml
 	 * 
 	 * @param user
 	 * @return
