@@ -1752,3 +1752,17 @@
 2021-04-11 21:37:02,184 [Worker-968: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-04-11 21:37:02,311 [Worker-968: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2021-04-11 21:37:02,318 [Worker-968: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-11 21:37:02,318 [Worker-968: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-11 21:37:02,318 [Worker-968: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-11 21:43:18,467 [Worker-978: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.rest.webservices:restful-web-services:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\pom.xml.
+2021-04-11 21:43:18,875 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-11 21:43:18,875 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-11 21:43:18,878 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-11 21:43:18,878 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-11 21:43:18,880 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-11 21:43:18,880 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-11 21:43:18,880 [Worker-978: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Documents\MicroServices\RestfulWebService\src\test\resources
+2021-04-11 21:43:21,010 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-11 21:43:21,010 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-11 21:43:21,011 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-11 21:43:21,030 [Worker-985: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources

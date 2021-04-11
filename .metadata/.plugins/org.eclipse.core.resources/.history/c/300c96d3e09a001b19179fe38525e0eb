@@ -31,11 +31,10 @@
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
 		<!-- to get the response in xml format, default is json -->
-		<!-- Removed it WHY? PROBLEM: Browsers give preference to XML over JSON 
-			(They send Accept header with application/xml). However, I prefer seeing 
-			responses with JSON in the browser (For most people REST = JSON) -->
-		<!-- <dependency> <groupId>com.fasterxml.jackson.dataformat</groupId> <artifactId>jackson-dataformat-xml</artifactId> 
-			</dependency> -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
