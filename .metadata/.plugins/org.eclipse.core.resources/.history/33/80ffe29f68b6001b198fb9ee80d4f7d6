@@ -3,4 +3,4 @@
 #spring.messages.basename=messages
 management.endpoints.web.exposure.include=*
 #recommend to include only necessary to avoid performance impact for now we have given all(*) to show all monintoring links
-#http-trace monitoring link would also have performance impact so do not add it in production
+#http-trace monitoring link also would have performance impact so cannot add it in production

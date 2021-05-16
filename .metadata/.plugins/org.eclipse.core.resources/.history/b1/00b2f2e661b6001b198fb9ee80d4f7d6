@@ -2,5 +2,3 @@
 #prior to spring 2.0 where it used to print timestamp (not required now)spring.jackson.serialization.write-dates-as-timestamps=false
 #spring.messages.basename=messages
 management.endpoints.web.exposure.include=*
-#recommend to include only necessary to avoid performance impact for now we have given all(*) to show all monintoring links
-#http-trace monitoring link would also have performance impact so do not add it in production

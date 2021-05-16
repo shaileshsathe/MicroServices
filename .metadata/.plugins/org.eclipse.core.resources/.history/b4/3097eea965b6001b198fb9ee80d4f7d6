@@ -30,22 +30,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
-		<!-- adding monitoring api -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>	
-		<!-- hal-Hypertext Application Language (actuator api are in hal format),hal browser looks at those apis, identify the links, shows them on the screen, so that you can easily browse through the api by just clicking the links which are present, hal browser makes it easier to consume the hal services which are being exposed by spring boot actuator -->
-		<dependency>
-    	<groupId>org.springframework.data</groupId>
-    	<artifactId>spring-data-rest-hal-explorer</artifactId>
-    	</dependency>
-		<!--(Deprecated new one is spring-data-rest-hal-explorer)
-		 <dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-rest-hal-browser</artifactId>
-			<version>2.4.0.RELEASE</version>
-		</dependency> -->
 		<!-- to get the response in xml format, default is json -->
 		<!-- Removed it WHY? PROBLEM: Browsers give preference to XML over JSON 
 			(They send Accept header with application/xml). However, I prefer seeing 
