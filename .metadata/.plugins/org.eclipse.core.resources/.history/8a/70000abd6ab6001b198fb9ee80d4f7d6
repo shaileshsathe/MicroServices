@@ -1,0 +1,9 @@
+package com.in28minutes.rest.webservices.filtering;
+
+public class SomeBean {
+
+	private String field1;
+	private String field2;
+	private String field3;
+	
+}

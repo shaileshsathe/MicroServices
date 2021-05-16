@@ -1,0 +1,5 @@
+package com.in28minutes.rest.webservices.filtering;
+
+public class SomeBean {
+
+}
